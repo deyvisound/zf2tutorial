@@ -2,7 +2,7 @@
 return array(
 	'controllers' => array(
 	    'invokables' => array(
-		'Album\Controller\Album' => 'Album\Controller\AlbumController',
+		'Album\Controller\Album' => Controller\IndexController::class // 'Album\Controller\AlbumController',
 	    ),
 	),
 	'router' => array(
