@@ -12,7 +12,7 @@
  */
 
 return array(
-    'db' => array(
+     'db' => array(
          'driver'         => 'Pdo',
          'dsn'            => 'mysql:dbname=zf2tutorial;host=localhost',
          'driver_options' => array(
@@ -25,4 +25,4 @@ return array(
                      => 'Zend\Db\Adapter\AdapterServiceFactory',
          ),
      ),
-);
+ );

@@ -1,3 +1,5 @@
+<?php
+
 namespace Album\Controller;
 
  use Zend\Mvc\Controller\AbstractActionController;
@@ -9,11 +11,11 @@ namespace Album\Controller;
     protected $albumTable;
 
     public function indexAction()
-    {
-	return new ViewModel(array(
+     {
+         return new ViewModel(array(
              'albums' => $this->getAlbumTable()->fetchAll(),
          ));
-    }
+     }
 
     public function addAction()
     {
